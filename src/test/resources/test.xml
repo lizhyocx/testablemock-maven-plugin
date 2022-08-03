@@ -1,0 +1,14 @@
+<mock-generator>
+    <mocks>
+        <mock>
+            <name>com.lizhy.mock.ShareInfoMock</name>
+            <test-class>com.lizhy.repository.ShareInfoRepository</test-class>
+            <mock-class>com.lizhy.dao.ShareInfoMapper</mock-class>
+        </mock>
+        <mock>
+            <name>com.lizhy.mock.HandlerMock</name>
+            <test-class></test-class>
+            <mock-class>com.lizhy.gateway.OneGateway, com.lizhy.gateway.TwoGateway</mock-class>
+        </mock>
+    </mocks>
+</mock-generator>
