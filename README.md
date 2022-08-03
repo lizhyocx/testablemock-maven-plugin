@@ -2,7 +2,8 @@
 
 生成testablemock Mock类的maven插件
 1. src/test/resource下新建testable-mock-generator.xml，内容如下：
-<mock-generator>
+2. 
+    <mock-generator>
     <mocks>
         <mock>
             <name>com.lizhy.mock.ShareInfoMock</name>
